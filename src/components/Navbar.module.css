@@ -1,0 +1,98 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 1.5rem 0;
+    transition: all 0.3s ease;
+}
+
+.scrolled {
+    padding: 1rem 0;
+    background: rgba(10, 10, 10, 0.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    z-index: 1001;
+}
+
+.desktopMenu {
+    display: none;
+    gap: 2rem;
+}
+
+.link {
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    opacity: 0.8;
+}
+
+.link:hover {
+    opacity: 1;
+    color: var(--secondary);
+}
+
+.menuToggle {
+    display: block;
+    background: none;
+    border: none;
+    color: var(--foreground);
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.mobileMenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mobileContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.mobileLink {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--foreground);
+}
+
+.socials {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+    .desktopMenu {
+        display: flex;
+    }
+
+    .menuToggle {
+        display: none;
+    }
+}
