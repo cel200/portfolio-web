@@ -16,7 +16,7 @@ export default function Hero() {
                 >
                     <span className={styles.greeting}>Hi, I&#39;m a</span>
                     <h1 className={styles.title}>
-                        Front End <span className="text-gradient">Developer</span>
+                        Full Stack <span className="text-gradient">Developer</span>
                     </h1>
                     <p className={styles.description}>
                         Specializing in building exceptional digital experiences with

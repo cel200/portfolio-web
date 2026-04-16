@@ -42,6 +42,14 @@ const projects = [
       'Developing a responsive subcontractor portal that enables contract management, bulk worker uploads, and dynamic data handling while seamlessly integrating with the Manpower Souq system.',
     tags: ['Next js', 'Redux', 'socket.io', 'Node js', 'Graphql', 'MongoDb', 'Express'],
   },
+  {
+    id: 5,
+    title: 'Saloon Booking System',
+    // image: '/images/image.png',
+    description:
+      'A Salon Booking System is a web application that simplifies appointment scheduling for customers and salon staff. Users can browse services, select time slots, book appointments, and get instant assistance through an AI chatbot. The system also includes an admin panel to manage services, staff availability, and bookings efficiently.',
+    tags: ['Next js', 'Redux', 'socket.io', 'Node js', 'Rest Api', 'MongoDb', 'Express','Python','NLP'],
+  },
 ];
 
 
